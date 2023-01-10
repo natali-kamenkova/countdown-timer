@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Comic Sans MS", cursive;
+}
+
+body{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  background: #aadaea;
+}
+.wrapper{
+  position: relative;
+  display: block;
+  background-color: azure;
+  padding: 60px 30px;
+}
+.wrapper h1{
+  font-size: 56px;
+  color: #303a43;
+  font-family: 'Caveat', cursive;
+}
+.wrapper h2{
+font-size: 32px;
+color: #ffffff;
+}
+.countdown_timer{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.timer{
+  padding: 20px;
+  margin: 20px;
+  background-color: #aadaea;
+  box-shadow: 2px 2px 80px #caedec,2px 2px 20px #caedec;
+  border: 3px solid #ffffff;
+  border-radius: 8px;
+  min-width: 100px;
+}
+.timer p {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
