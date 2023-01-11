@@ -1,0 +1,49 @@
+@media (max-width: 800px) {
+  .wrapper {
+    max-width: 80%;
+    padding: 30px 15px;
+  }
+  .wrapper h1 {
+    font-size: 30px;
+    color: #303a43;
+    font-family: 'Caveat', cursive;
+  }
+
+  
+
+  .wrapper h2 {
+    font-size: 17px;
+    color: #ffffff;
+  }
+  .countdown_timer{
+   
+    padding: 3px;
+  }
+  .timer{
+    margin: 5px;
+    padding: 5px;
+    min-width: auto;
+   
+  }
+
+  .timer p {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+
+}
+
+@media (max-width: 800px){
+  .timer p {
+   
+    font-size: 8px;
+  }
+  .wrapper h2 {
+    font-size: 10px;
+  }
+  .wrapper h1 {
+    font-size: 18px;
+    padding: 15px 5px;
+  }
+}
